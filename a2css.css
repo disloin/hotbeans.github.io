@@ -1,0 +1,127 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background: orange;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar .logo {
+    font-weight: bold;
+  }
+  
+  .navbar nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+  }
+  
+  /* Hero */
+  .hero {
+    text-align: center;
+    padding: 2rem;
+    background-image: url('assets/background.png');
+    background-size: cover;
+    color: white;
+    position: relative;
+    height: 800px;
+  }
+  
+  .cta-btn {
+    background: orange;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  /* Overview */
+  .overview {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  /* Team */
+  .team {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .person {
+    max-width: 200px;
+  }
+  
+  .person button {
+    background: orange;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+  }
+  
+  /* Jobs */
+  .jobs {
+    padding: 2rem;
+    background: #f0f0f0;
+  }
+  
+  /* Contact Info + Map */
+  .contact-info {
+    display: flex;
+    padding: 2rem;
+    justify-content: space-between;
+  }
+  
+  .details {
+    width: 50%;
+  }
+  
+  .map img {
+    width: 100%;
+  }
+  
+  /* Form */
+  .form {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .form input, .form button {
+    display: block;
+    width: 50%;
+    margin: 0.5rem auto;
+    padding: 0.5rem;
+  }
+  
+  .form button {
+    background: orange;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  /* Footer */
+  footer {
+    background: orange;
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.8rem;
+  }
+  
